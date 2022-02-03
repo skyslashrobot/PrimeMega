@@ -81,10 +81,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ───「[SkyslashRobot](https://t.me/SkyslashhRobot)」───
+ ───「[Skyslash 夜](https://t.me/SkyslashhRobot)」───
 *Hello {} !*
 ────────────────────────
-SkyslashRobot a powerful group management bot built to help you manage your group!
+Skyslash 夜 a powerful group management bot built to help you manage your group!
 ────────────────────
 Hit the /help or tap on button to se available command on me.
 """
@@ -92,7 +92,7 @@ Hit the /help or tap on button to se available command on me.
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Add Skyslash Robot to your group ➕️", url="t.me/PrimeMegaBot?startgroup=true"
+            text="➕️ Add Skyslash 夜 to your group ➕️", url="t.me/SkyslashhRobot?startgroup=true"
         ),
     ],
     [
