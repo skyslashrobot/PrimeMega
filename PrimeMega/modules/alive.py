@@ -9,7 +9,7 @@ from PrimeMega.events import register
 from PrimeMega import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/efc27dec817626cc95016.jpg"
+PHOTO = "https://telegra.ph/file/8f0e7c3d5a62cf6c07767.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
