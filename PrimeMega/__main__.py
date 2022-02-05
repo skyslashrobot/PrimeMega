@@ -96,7 +96,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="Support", url="https://t.me/PrimeSupportGroup"
+        InlineKeyboardButton(text="Support", url="https://t.me/SkyslashSupport"
         ),
         InlineKeyboardButton(
             text="TryInline", switch_inline_query_current_chat=""
