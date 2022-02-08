@@ -438,13 +438,13 @@ def prime_about_callback(update, context):
     elif query.data == "prime_support":
         query.message.edit_text(
             text="*๏ Skyslash 夜 support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on PrimeMega.",
+            "\nJoin My Support Group/Channel for see or report a problem on Skyslash 夜.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/PrimeSupportGroup"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/PrimeSupportChannel"),
+                    InlineKeyboardButton(text="Support", url="t.me/SkyslashSupport"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/skyslashproject"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="prime_"),
@@ -457,14 +457,14 @@ def prime_about_callback(update, context):
 
     elif query.data == "prime_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credis for primeMega</b>\n"
+            text=f"<b>๏ Credis for @sunsilx</b>\n"
             f"\nHere Developers Making The PrimeMegaRobot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Tonic", url="t.me/Bukan_guudlooking"),
-                    InlineKeyboardButton(text="x~b", url="t.me/Xbarok"),
+                    InlineKeyboardButton(text="Sukma", url="t.me/Sunsilx"),
+                    InlineKeyboardButton(text="x~b", url="t.me/sunslixs"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="prime_"),
