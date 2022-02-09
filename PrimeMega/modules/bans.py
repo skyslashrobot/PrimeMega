@@ -91,7 +91,7 @@ def ban(update: Update, context: CallbackContext) -> str:
 
     if is_user_ban_protected(chat, user_id, member) and user not in DEV_USERS:
         if user_id == OWNER_ID:
-            message.reply_text("Trying to put me against a King huh?")
+            message.reply_text("Trying to put me against a My God huh?")
         elif user_id in DEV_USERS:
             message.reply_text("I can't act against our Prince.")
         elif user_id in DRAGONS:
@@ -410,7 +410,7 @@ def punchme(update: Update, context: CallbackContext):
     res = update.effective_chat.unban_member(user_id)  # unban on current user = kick
     if res:
         update.effective_message.reply_text(
-            "punches you out of the group!!",
+            "Sana keluar tolol,nih gw bantu!!",
         )
     else:
         update.effective_message.reply_text("Huh? I can't :/")
