@@ -15,7 +15,7 @@ PHOTO = "https://telegra.ph/file/8f0e7c3d5a62cf6c07767.jpg"
 async def awake(event):
   PRIME = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Skyslash 夜.** \n\n"
   PRIME += "⚪ **I'm Working Properly** \n\n"
-  PRIME += f"⚪ **My Master : [God](https://t.me/sunsilx)** \n\n"
+  PRIME += f"⚪ **My God : [Sukma](https://t.me/sunsilx)** \n\n"
   PRIME += f"⚪ **Library Version :** `{telever}` \n\n"
   PRIME += f"⚪ **Telethon Version :** `{tlhver}` \n\n"
   PRIME += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
