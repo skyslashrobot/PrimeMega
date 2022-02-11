@@ -109,7 +109,7 @@ def ban(update: Update, context: CallbackContext) -> str:
         elif user_id in WOLVES:
             message.reply_text("Trader access make them ban immune!")
         else:
-            message.reply_text("Dia kan admin,mana bisa di ban 😒.")
+            message.reply_text("Dia kan admin,mana bisa di ban bodo😒.")
         return log_message
     if message.text.startswith("/s"):
         silent = True
