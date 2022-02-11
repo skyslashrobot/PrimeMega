@@ -76,7 +76,7 @@ def ban(update: Update, context: CallbackContext) -> str:
     user_id, reason = extract_user_and_text(message, args)
 
     if not user_id:
-        message.reply_text("⚠️ User not found.")
+        message.reply_text("Yang mau di ban mana tolol.")
         return log_message
     try:
         member = chat.get_member(user_id)
@@ -86,7 +86,7 @@ def ban(update: Update, context: CallbackContext) -> str:
         message.reply_text("Can't seem to find this person.")
         return log_message
     if user_id == bot.id:
-        message.reply_text("Oh yeah, ban myself, noob!")
+        message.reply_text("Lu nyuruh gw ban diri gw sendiri? 😒!")
         return log_message
 
     if is_user_ban_protected(chat, user_id, member) and user not in DEV_USERS:
@@ -109,7 +109,7 @@ def ban(update: Update, context: CallbackContext) -> str:
         elif user_id in WOLVES:
             message.reply_text("Trader access make them ban immune!")
         else:
-            message.reply_text("⚠️ Cannot banned admin.")
+            message.reply_text("Dia kan admin,mana bisa di ban 😒.")
         return log_message
     if message.text.startswith("/s"):
         silent = True
