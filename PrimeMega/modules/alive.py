@@ -20,5 +20,5 @@ async def awake(event):
   PRIME += f"⚪ **Telethon Version :** `{tlhver}` \n\n"
   PRIME += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
   PRIME += "**Thanks For Adding Me Here ❤️**"
-  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/SkyslashRobot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/SkyslashSupport")]]
+  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/SkyslashRobot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/SkyslashSupportt")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=PRIME,  buttons=BUTTON)
