@@ -81,7 +81,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ───「[Skyslash 夜](https://t.me/SkyslashhRobot)」───
+ ───「[Skyslash 夜](https://t.me/SkyslashRobot)」───
 *Hello {} !*
 ────────────────────────
 Skyslash 夜 a powerful group management bot built to help you manage your group!
@@ -92,11 +92,11 @@ Hit the /help or tap on button to se available command on me.
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Add Skyslash 夜 to your group ➕️", url="t.me/SkyslashhRobot?startgroup=true"
+            text="➕️ Add Skyslash 夜 to your group ➕️", url="t.me/SkyslashRobot?startgroup=true"
         ),
     ],
     [
-        InlineKeyboardButton(text="Support", url="https://t.me/SkyslashSupport"
+        InlineKeyboardButton(text="Support", url="https://t.me/SkyslashSupportt"
         ),
         InlineKeyboardButton(
             text="TryInline", switch_inline_query_current_chat=""
@@ -115,7 +115,7 @@ Click on the button bellow to get description about specifics command."""
 PRIME_IMG = "https://telegra.ph/file/c5ae18e63f7cb2ab78343.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @sunsilx \
+ You can support the project by contacting @Sansanzt \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -369,7 +369,7 @@ def prime_about_callback(update, context):
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_SkylashhRobot's licensed under the GNU General Public License v3.0_"
+            "\n\n_SkylashRobot's licensed under the GNU General Public License v3.0_"
             "\n\n Click on button bellow to get basic help for PrimeMega.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -443,8 +443,8 @@ def prime_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/SkyslashSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/skyslashproject"),
+                    InlineKeyboardButton(text="Support", url="t.me/SkyslashSupportt"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/skyslashprojectt"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="prime_"),
@@ -457,14 +457,14 @@ def prime_about_callback(update, context):
 
     elif query.data == "prime_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credis for @sunsilx</b>\n"
+            text=f"<b>๏ Credis for @sansanzt</b>\n"
             f"\nHere Developers Making The PrimeMegaRobot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Sukma", url="t.me/Sunsilx"),
-                    InlineKeyboardButton(text="x~b", url="t.me/sunslixs"),
+                    InlineKeyboardButton(text="Sukma", url="t.me/Sansanzt"),
+                    InlineKeyboardButton(text="x~b", url="t.me/sansanzt"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="prime_"),
