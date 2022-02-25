@@ -70,7 +70,7 @@ def no_longer_afk(update: Update, context: CallbackContext):
                 "{} akhirnya kembali untuk mencari janda!",
                 "{} akhirnya kembali online!",
                 "{} akhirnya Disini, pasti habis sleepcall!",
-                "Welcome back,ayang! {}",
+                "Welcome back ayang! {}",
                 "Where is {}?\nIn the chat!",
             ]
             chosen_option = random.choice(options)
