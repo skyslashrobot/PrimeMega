@@ -113,7 +113,7 @@ async def logo_gen(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Skyslash 夜](https://t.me/SkyslashhRobot)",
+            caption="Logo by [Skyslash 夜](https://t.me/SkyslashRobot)",
             force_document=False,
         )
         os.remove(flnme)
@@ -196,7 +196,7 @@ async def logo_(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Skyslash 夜](https://t.me/SkyslashhRobot)",
+            caption="Logo by [Skyslash 夜](https://t.me/SkyslashRobot)",
             force_document=False,
         )
         os.remove(flnme)
