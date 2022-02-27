@@ -28,7 +28,7 @@ async def carbon_func(_, message):
 async def repo(_, message):
     await message.reply_text(
         f"""✨ **Hey I'm Skyslash 夜** 
-**Owner repo : [『Sukma』](https://t.me/Sunsilx)**
+**Owner repo : [『Sukma』](https://t.me/Sansanzt)**
 **Python Version :** `{y()}`
 **Library Version :** `{o}`
 **Telethon Version :** `{s}`
@@ -39,7 +39,7 @@ async def repo(_, message):
             [
                 [
                     InlineKeyboardButton("Repo", url="www.Xhamster.com"), 
-                    InlineKeyboardButton("Support", url="https://t.me/SkyslashSupport")
+                    InlineKeyboardButton("Support", url="https://t.me/SkyslashSupportt")
                 ]
             ]
         ),
